@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML5 Local Storage Example</title>
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+  </head>
+  
+  <body>
+    <div class="container">
+      <h1>HTML5 Local Storage Example</h1>
+      <form method="post" class="form-horizontal">
+        <fieldset>
+          <legend>Contact Form</legend>  
+          <div class="control-group">
+            <label class="control-label" for="type">Department</label>
+            <div class="controls">
+              <select name="type" id="type">
+                <option value="">Please select</option>
+                <option value="accounting">Accounting</option>
+                <option value="sales">Sales</option>
+                <option value="support">Support</option>
+              </select>
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="name">Name</label>
+            <div class="controls">
+              <input class="input-xlarge" type="text" name="name" id="name" value="" maxlength="50">
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="email">Email Address</label>
+            <div class="controls">
+              <input class="input-xlarge" type="text" name="email" id="email" value="" maxlength="150">
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="message">Message</label>
+            <div class="controls">
+              <textarea class="input-xlarge" name="message" id="message"></textarea>
+            </div>
+          </div>         
+        </fieldset>                       
+        <div class="form-actions">
+          <input type="submit" name="submit" id="submit" value="Send" class="btn btn-primary">
+        </div>
+      </form> 
+    </div>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
